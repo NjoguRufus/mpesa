@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Dashboard from './Dashboard';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="text-center text-2xl mt-10">
-      Your Dashboard Will Be Here
-    </div>
+    <Dashboard />
   </React.StrictMode>,
   document.getElementById('root')
 );
